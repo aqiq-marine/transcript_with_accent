@@ -7,6 +7,7 @@
 - [Agent instructions](AGENTS.md): コーディングエージェント向けの作業規約
 - [Architecture Decision Records](adr/README.md): 設計判断の記録
 - [ADR 0001: Canonical annotation model](adr/0001-canonical-annotation-model.md): 正規データモデルとエンジン非依存性
+- [ADR 0002: VOICEVOX project export](adr/0002-voicevox-project-export.md): `.vvproj` を生成してVOICEVOXエディターで編集・合成する方針
 - [Initial system design](design.md): 初期データフローと各コンポーネントの役割
 
 ## Documentation conventions
