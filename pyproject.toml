@@ -9,6 +9,10 @@ authors = [
 requires-python = ">=3.14"
 dependencies = []
 
+[project.optional-dependencies]
+gemini = ["google-genai>=1.0"]
+reading = ["pyopenjtalk>=0.4"]
+
 [project.scripts]
 transcript-with-accent = "transcript_with_accent:main"
 
