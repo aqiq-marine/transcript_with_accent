@@ -9,6 +9,7 @@
 - [ADR 0001: Canonical annotation model](adr/0001-canonical-annotation-model.md): 正規データモデルとエンジン非依存性
 - [ADR 0002: VOICEVOX project export](adr/0002-voicevox-project-export.md): `.vvproj` を生成してVOICEVOXエディターで編集・合成する方針
 - [Initial system design](design.md): 初期データフローと各コンポーネントの役割
+- [VOICEVOX `.vvproj` MVP format](vvproj-format.md): 現在のプロジェクト構造と生成規則
 
 ## Documentation conventions
 

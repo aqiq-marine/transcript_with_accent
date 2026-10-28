@@ -21,7 +21,7 @@ def transcribe(audio: str | None, text: str | None) -> str:
         from google import genai
         client = genai.Client(api_key=key)
         uploaded = client.files.upload(file=audio)
-        result = client.models.generate_content(model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"), contents=[uploaded, "日本語音声を文字起こしし、本文だけを返してください。"])
+        result = client.models.generate_content(model=os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite"), contents=[uploaded, "日本語音声を文字起こしし、本文だけを返してください。"])
         return result.text.strip()
     except ImportError as exc: raise RuntimeError("Gemini利用には google-genai をインストールしてください。") from exc
 
