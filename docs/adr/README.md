@@ -5,6 +5,7 @@ ADRは、プロジェクトの重要な設計判断と、その背景・代替�
 ## Index
 
 - [0001 — Canonical annotation model](0001-canonical-annotation-model.md)
+- [0002 — VOICEVOX project export](0002-voicevox-project-export.md)
 
 ## Status values
 
